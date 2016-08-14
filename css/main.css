@@ -1,0 +1,117 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* add a list of colours used in the project */
+
+/******************************************
+/* SENSIBLE DEFAULTS                   
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+/* add type styles here */
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+.site-container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.site-header {
+
+}
+.site-content {
+
+}
+.site-footer {
+	clear:both;
+
+}
+article{
+	width:45%;
+	float:left;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+article .each-image{
+	float:left;
+	margin-right:20px;
+
+}
+article section{
+
+}
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+.circular--landscape{
+	display: inline-block;
+	position: relative;
+	width: 130px;
+	height: 130px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+article h3{
+	margin-top: 0;
+	font-size: 1.8rem;
+	line-height: 0.5rem;
+	color:#3AB062;
+}
+article a{
+	text-decoration: none;
+	display: block;
+}
+article p.description{
+	font-size: 0.9rem;
+	line-height: 1.1rem;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#000;
+}
+
+
+
+
+
+
