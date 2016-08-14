@@ -13,7 +13,10 @@ Author: Your Name
 /******************************************
 /* SENSIBLE DEFAULTS                   
 /*******************************************/
-
+html,
+body{
+	width:100%;
+}
 * {
      box-sizing: border-box;
 }
@@ -32,6 +35,7 @@ Author: Your Name
 .site-container {
 	max-width: 960px;
 	margin: 0 auto;
+	
 }
 
 .site-header {
@@ -55,8 +59,26 @@ article .each-image{
 	margin-right:20px;
 
 }
-article section{
-
+.article-container{
+	width:100%;
+	height:auto;
+	background-color: rgba(30,144,255,0.7);
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1000;
+	display: none;
+}
+.article-content{
+	max-width: 600px;
+	margin:150px auto;
+	background-color: #fff;
+	padding:30px;
+	opacity: 1;
+}
+.article-content img{
+	max-width: 100%;
+	height:auto;
 }
 
 /******************************************
@@ -85,7 +107,7 @@ article section{
 /* ADDITIONAL STYLES                   
 /*******************************************/
 
-.circular--landscape{
+.circular{
 	display: inline-block;
 	position: relative;
 	width: 130px;
@@ -95,8 +117,8 @@ article section{
 }
 article h3{
 	margin-top: 0;
-	font-size: 1.8rem;
-	line-height: 0.5rem;
+	font-size: 1.6rem;
+	line-height: 1.9rem;
 	color:#3AB062;
 }
 article a{
@@ -105,9 +127,18 @@ article a{
 }
 article p.description{
 	font-size: 0.9rem;
-	line-height: 1.1rem;
+	line-height: 1.15rem;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-left: 150px;
 	color:#000;
+}
+.close{
+	font-size: 35px;
+	color:#fff;
+	position: absolute;
+	top:30px;
+	right:50px;
+	cursor: pointer;
 }
 
 
